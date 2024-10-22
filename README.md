@@ -54,7 +54,7 @@ This is a multiple pages responsive web project about Morocco, has the best dest
 
 ## Authors
 
-- [Soufian](https://github.com/Bouanaya)
+- [Bouanaya soufiane](https://github.com/Bouanaya)
 - [Ayman](https://github.com/AymanElh)
 - [Amina](https://github.com/K-amina)
 - [Rayan](https://github.com/rayan4-dot)
