@@ -1,0 +1,56 @@
+/* Article Design */
+
+
+body {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.first-paragraph {
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.img-container {
+  width: 400px;
+}
+
+.img-container img {
+  overflow: hidden;
+}
+
+.first-paragraph p {
+  font-size: 1.5rem;
+}
+
+.paragraphs {
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.second-paragraph {
+  display: flex;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+
+@media screen and (max-width: 700px) {
+  .first-paragraph, .second-paragraph {
+    flex-direction: column;
+  }
+}
