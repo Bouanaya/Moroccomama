@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* These are all colors and fonts will need on our project */
+
+:root {
+  --blue-primary: #4475F2;
+  --blue-secondary: #4737FF;
+  --black: hsl(0, 0%, 0%);
+  --blue: #3358B4;
+  --default-font-color: #000;
+  --second-font-color: #fff;
+  --third-font-color: #9A9EA6;
+}
+
+@font-face {
+  font-family: PlusJakartaBold;
+  src: url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: PlusJakartaMeduim;
+  src: url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: PlusJakartaRegular;
+  src: url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: PlusJakartaSemiBold;
+  src: url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: PlusJakartaExtraBold;
+  src: url(../font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
+html {
+  font-family: PlusJakartaRegular, Arial;
+  font-size: 10px
+}
