@@ -1,0 +1,111 @@
+.contact h2 {
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 3rem;
+    font-family: PlusJakartaSemiBold;
+    color: var(--blue-primary);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.contact-form {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    background-color: #eeeff4;
+    color: var(--blue-primary);
+}
+
+.contact-form input,
+.contact select,
+.contact textarea {
+    padding: 2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: var(--blue-primary);
+}
+.contact-form label {
+    display: none;
+}
+.contact-form button {
+    background-color: var(--blue-primary);
+    padding: 2rem;
+    border: none;
+    margin-bottom: 4rem;
+    box-shadow: 1px 1px;
+    border-radius: 1.5rem;
+    color: var(--second-font-color);
+    font-size: 1.5rem;
+}
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+    outline: none;
+    border: 1px solid var(--blue-primary);
+}
+.contact-image {
+    display: none;
+}
+textarea#message {
+    width: 33.5rem;
+}
+
+@media only screen and (min-width: 1280px) {
+    .contact-form input,
+    .contact select {
+        width: 100%;
+    }
+    .contact-image {
+        display: block;
+    }
+    .contact-form input,
+    .contact select {
+        padding: 2rem;
+        width: 40%;
+        margin-bottom: 3rem;
+        border: none;
+        border-radius: 1.5rem;
+    }
+    .contact-form {
+        width: 50%;
+        margin-top: 11rem;
+    }
+    .contact-form button {
+        width: 100%;
+    }
+    input#firstName {
+        margin-right: 3rem;
+    }
+    input#email {
+        margin-right: 3rem;
+    }
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+    }
+    .contact-container img {
+        display: block;
+        width: 40%;
+        margin-left: 4rem;
+    }
+    textarea#message {
+        width: 55.5rem;
+    }
+    .contact-container button {
+        width: 30%;
+    }
+}
