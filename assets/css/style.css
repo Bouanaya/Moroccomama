@@ -1,24 +1,182 @@
 * {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
+body{
+    font-size: 14px;
+    text-transform: initial;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
 
-body {
-  font-size: 14px;
-  text-transform: initial;
-  max-width: 1920px;
-  margin: 0 auto;
 }
 .container {
-  padding: 2rem;
+  padding: 0 2rem;
+}
+/* <!-- create header --> */
+nav {
+  padding: 0.5rem 0;
+}
+.first-nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.first-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* <!-- create header --> */
+.res {
+  display: none;
+}
+.nav-buttom{
+    display: none;
+}
+
+/* Desktop header */
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 3rem;
+  }
+  nav{
+    padding: 0;
+  }
+
+  nav .navbar{
+    border-bottom: 1px solid var(--third-font-color);
+
+    padding: 1rem 0;
+  }
+  .first-nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+  }
+  .first-nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+  }
+  .logo h1 {
+    font-size: 2rem;
+  }
+  .res {
+    display: flex;
+
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+  .inp-header {
+    padding: 0.6rem 1.5rem;
+    background-color: #f0f1f2;
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    border-radius: 1rem;
+  }
+
+  .inp-header input {
+    width: 100%;
+    padding: 0.7rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .sel-lang {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .sel-lang select {
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    color: var(--third-font-color);
+    background-color: transparent;
+  }
+  .sel-location {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .location-img {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .sel-location .location p {
+    color: var(--third-font-color);
+
+  }
+  .sel-location .location select{
+    outline: none;
+    border: none;
+
+   color: var( --blue-primary);
+    background-color: transparent;
+  }
+
+  .nav-buttom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+  }
+  .nav-buttom ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 0.4rem 0;
+
+
+  }
+  .nav-buttom ul li a{
+    font-size: 1.5rem;
+  }
+
+  .sign-delate{
+    display: flex;
+    gap: 1rem;
+    margin-right:2.5rem ;
+  }
+  .sign-delate .delate , .sign-in{
+    width: 4rem;
+    height: 4rem;
+    background-color:var(--blue-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .sign-in.active{
+    background-color:#E3EBFD;
+
+  }
+
+
+
+}
 
 /* <!-- create header --> */
 
