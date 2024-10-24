@@ -1,80 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moroccomama</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/global.css">
-</head>
-<body>
-
-<header>
-<!-- create header -->
-<div class="container">
-    <nav>
-        <div class="navbar">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/map.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- create header -->
+      <div class="container">
+        <nav>
+          <div class="navbar">
             <div class="first-nav">
-                <div class="logo">
-                    <img src="./assets/images/home/icon-512 2.png" alt="">
-                    <h1>MarocMama</h1>
+              <div class="logo">
+                <img src="./assets/images/home/icon-512 2.png" alt="" />
+                <h1>MarocMama</h1>
+              </div>
+              <div class="res">
+                <div class="inp-header">
+                  <img src="./assets/icons/search.svg" alt="" />
+                  <input type="text" placeholder="Find anything here..." />
                 </div>
-                <div class="res">
-                    <div class="inp-header">
-                        <img src="./assets/icons/search.svg" alt="">
-                        <input type="text" placeholder="Find anything here...">
-                    </div>
-                    <div class="sel-lang">
-                        <img src="./assets/icons/lang.svg" alt="select language">
-                        <select name="lang" id="lang" >
-                            <option value="English">English</option>
-                            <option value="french">french</option>
-                        </select>
-                    </div>
-                    <div class="sel-location">
-                        <div class="location-img">
-                            <img src="./assets/icons/location.svg" alt="">
-                        </div>
-                        <div class="location">
-                            <p>Location</p>
-                            <select name="loction" id="loction">
-                                <option value="youssoufia">Morocco,youssoufia</option>
-                            </select>
-                        </div>
-
-
-                    </div>
-
+                <div class="sel-lang">
+                  <img src="./assets/icons/lang.svg" alt="select language" />
+                  <select name="lang" id="lang">
+                    <option value="English">English</option>
+                    <option value="french">french</option>
+                  </select>
                 </div>
-                <div class="menu">
-                    <img src="./assets/icons/menu.svg" alt="">
+                <div class="sel-location">
+                  <div class="location-img">
+                    <img src="./assets/icons/location.svg" alt="" />
+                  </div>
+                  <div class="location">
+                    <p>Location</p>
+                    <select name="loction" id="loction">
+                      <option value="youssoufia">Morocco,youssoufia</option>
+                    </select>
+                  </div>
                 </div>
+              </div>
+              <div class="menu">
+                <img src="./assets/icons/menu.svg" alt="" />
+              </div>
             </div>
-
-        </div>
-        <div class="nav-buttom">
-
+          </div>
+          <div class="nav-buttom">
             <ul>
-                <li><a href="./index.html" class="active">Home</a></li>
-                <li><a href="./pages/moroccanFoods.html">Fods</a></li>
-                <li><a href="./pages/traveltips.html">travelTips</a></li>
-                <li><a href="./pages/about.html">About</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
+              <li><a href="./index.html" class="active">Home</a></li>
+              <li><a href="./pages/moroccanFoods.html">Fods</a></li>
+              <li><a href="./pages/traveltips.html">travelTips</a></li>
+              <li><a href="./pages/about.html">About</a></li>
+              <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
             <div class="sign-delate">
-                <div class="delate">
-                    <img src="./assets/icons/sign-in.svg" alt="">
-                </div>
-                <div class="sign-in active">
-                    <img src="./assets/icons/delate.svg" alt="">
-
-                </div>
+              <div class="delate">
+                <img src="./assets/icons/sign-in.svg" alt="" />
+              </div>
+              <div class="sign-in active">
+                <img src="./assets/icons/delate.svg" alt="" />
+              </div>
             </div>
-        </div>
-    </nav>
-</div>
-<!-- create header -->
-</header>
+          </div>
+        </nav>
+      </div>
+      <!-- create header -->
+    </header>
     <section>
       <!-- section1 VIDOE -->
     </section>
@@ -83,6 +81,48 @@
     </section>
     <section>
       <!-- section3 map and blog -->
+      <div class="tourist-section">
+        <div class="container-header">
+          <h1>Fint a tourist attraction near to you</h1>
+          <p>
+            A popular tourist spot that everyone around you will definitely know
+            about.
+          </p>
+        </div>
+        <div class="map-img">
+          <img src="assets/images/Home/map.svg" alt="Morocco cart" />
+        </div>
+        <div class="info-cards">
+          <div class="card">
+            <span class="icon"
+              ><i class="fa-solid fa-map-location-dot"></i
+            ></span>
+            <div class="content">
+              <h3>Popular near to you</h3>
+              <p>
+                A popular tourist spot that everyone around you will definitely
+                know about.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <span class="icon"><i class="fa-solid fa-heart"></i> </span>
+            <div class="content">
+              <h3>Popular near to you</h3>
+              <p>Everyone's favorite and loved place around your area</p>
+            </div>
+          </div>
+          <div class="card">
+            <span class="icon"
+              ><i class="fa-solid fa-map-location-dot"></i
+            ></span>
+            <div class="content">
+              <h3>Popular near to you</h3>
+              <p>The most crowded spot visited by residents and tourists</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <div class="container">
       <section id="review-section">
@@ -179,7 +219,11 @@
           </p>
           <button>
             From now on
-            <img src="./assets/icons/ArrowRight.svg" alt="ArrowRight" class="ArrowRight" />
+            <img
+              src="./assets/icons/ArrowRight.svg"
+              alt="ArrowRight"
+              class="ArrowRight"
+            />
           </button>
         </div>
       </div>
