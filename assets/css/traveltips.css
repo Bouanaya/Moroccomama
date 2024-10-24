@@ -1,0 +1,117 @@
+
+.travelExperience{
+  margin-top: 2rem;
+}
+
+.infoExperience{
+  display: flex;
+  justify-content:space-between;
+  padding: 0 3rem;
+}
+ .infoExperience .info h1 {
+    font-family: PlusJakartaExtraBold;
+  }
+  .para-info {
+    margin-top: 2rem;
+  }
+ 
+  .infoExperience a {
+    color: var(--blue-primary);
+    font-family: PlusJakartaExtraBold;
+    font-size: 1rem;
+    display: flex;
+  }
+  .tripDetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .tripImg{
+    padding: 3rem;
+  }
+  .tripImg img{
+    border-radius: 2rem;
+    height: 100%;
+    border-radius: 2rem;
+  }
+  .boxs{
+    padding:3rem ;
+  }
+  .box-trips{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    
+  }
+  .box-trips img{
+    border-radius: 2rem;
+  }
+  .box-trips h1{
+    color: var(--blue-primary);
+  }
+  .box-trips p{
+    font-size:1.4rem;
+    color:gray;
+    margin: 1.5rem 0;
+  }
+  .box-trips button{
+    padding: 0.4rem 1.5rem;
+    border:1px solid rgba(0, 0, 0, 0.285);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color:#789DFC;
+    
+  }
+
+
+  @media(max-width:768px){
+.container{
+  padding: 0 1rem;
+}
+.infoExperience a {
+  display: none;
+}
+    .tripDetails{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       
+    }
+   
+    .tripImg img{
+      width: 100%;
+    }
+    .boxs{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-top: 2px solid var(--blue-primary);
+    }
+    .box-trips{
+      display:flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .box-trips img{
+      width: 100%;
+    }
+
+
+
+
+    
+  }
+
+ 
+
+  
+
+
+
+
+
+
+ 
+ 
+
+ 
+ 
