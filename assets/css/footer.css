@@ -75,6 +75,7 @@ footer li {
   @media (max-width: 767px) {
     .footer-links{
         flex-direction: column;
+        align-items: start; 
         margin-bottom: 50px;
         justify-content: start;
         gap: 10px;
