@@ -54,5 +54,12 @@ p {
 @media screen and (max-width: 700px) {
   .first-paragraph, .second-paragraph {
     flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .paragraphs {
+    flex-direction: column;
   }
 }
