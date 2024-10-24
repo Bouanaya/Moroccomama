@@ -1,0 +1,103 @@
+/* div {
+  display: inline-block;
+} */
+
+.trending {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--third-font-color);
+  margin-bottom: 2rem;  
+}
+
+.heading h2 {
+  font-size: 1.8rem;
+  font-family: PlusJakartaBold;
+}
+
+.heading p {
+  font-size: 1.2rem;
+  color: var(--blue-secondary);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+  /* border: 1px solid red; */
+}
+
+.card {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* border: 1px solid blue; */
+  background-color: #14183E;
+  color: white;
+  border-radius: 15px;
+}
+
+.card .img-container {
+  margin: 1rem;
+  background-color: var(--blue-secondary);
+  width: 140px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.3rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-family: PlusJakartaMeduim;
+  padding: 1rem 0;
+}
+
+.content h2 {
+  font-size: 2rem;
+  font-family: PlusJakartaBold;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author .img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--third-font-color);
+}
+
+@media only screen and (max-width: 720px) {
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 511px) {
+  .card .img-container {
+    width: 100%;
+  }
+}
