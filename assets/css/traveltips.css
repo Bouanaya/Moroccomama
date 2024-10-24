@@ -1,0 +1,34 @@
+@media (min-width: 1024px) {
+  .infoExperience .info h1 {
+    font-family: PlusJakartaExtraBold;
+  }
+  .para-info {
+    margin-top: 2rem;
+  }
+ 
+  .infoExperience a {
+    color: var(--blue-primary);
+    font-family: PlusJakartaExtraBold;
+    display: flex;
+  }
+}
+/* //mobile// */
+.travelExperience {
+  margin: 2rem 1rem;
+}
+.infoExperience {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  padding: 2rem 3rem;
+}
+.travelExperience {
+  margin: 2rem 0;
+}
+ 
+.para-info {
+  margin-top: 0.7rem;
+}
+.infoExperience a{
+    display:none;
+}
