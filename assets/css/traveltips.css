@@ -1,4 +1,47 @@
+.heroTraveltips{
+  background-image: url(../images/travelExperience/best-things-to-do-fes-morocco-buy-rug.jpg);
+  width: 100vw;
+  height:95vh;
+  background-size: cover;
+  margin: 1rem 0;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 
+}
+.heroCaption{
+  width: 70%;
+height: 50%;
+  padding: 5rem;
+  background-color:rgba(255, 255, 255, 0.477);
+  
+  
+}
+.heroCaption h1{
+  margin-bottom: 1rem ;
+
+}
+.heroCaption p{
+  margin-bottom:3rem;
+
+}
+.heroCaption button:hover{
+  background-color:#4475f2c9;
+
+}
+.heroCaption button{
+  margin-bottom: 1rem;
+  padding: 0.7rem 1.5rem;
+    border:none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color:#4475F2;
+    color: white;
+    transition: .5s;
+
+}
 .travelExperience{
   margin-top: 2rem;
 }
@@ -17,8 +60,8 @@
  
   .infoExperience a {
     color: var(--blue-primary);
-    font-family: PlusJakartaExtraBold;
-    font-size: 1rem;
+     
+    font-size: 1.2rem;
     display: flex;
   }
   .tripDetails{
@@ -44,6 +87,11 @@
   }
   .box-trips img{
     border-radius: 2rem;
+    cursor:pointer;
+    transition:.5s;
+  }
+  .box-trips img:hover{
+    opacity: 0.8;
   }
   .box-trips h1{
     color: var(--blue-primary);
@@ -54,11 +102,12 @@
     margin: 1.5rem 0;
   }
   .box-trips button{
-    padding: 0.4rem 1.5rem;
-    border:1px solid rgba(0, 0, 0, 0.285);
+    padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    background-color:#789DFC;
+    border: none;
+    background-color:#4475F2;
+    color: white;
     
   }
 
@@ -93,6 +142,14 @@
     }
     .box-trips img{
       width: 100%;
+    }
+    .heroCaption{
+      width: 75%;
+    height: 60%;
+      padding: 5rem;
+      background-color:rgba(255, 255, 255, 0.477);
+      
+      
     }
 
 
