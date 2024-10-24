@@ -108,8 +108,60 @@ height: 50%;
     border: none;
     background-color:#4475F2;
     color: white;
+
     
   }
+  .global-review{
+    padding:0 3rem;
+    margin-top: 3rem;
+  }
+  .travel-review{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #4475F2;
+     justify-content: center;
+     align-items: center;
+     padding: 0 3rem;
+     border-radius: 3rem;
+    
+  }
+  .review-img {
+    padding:2rem;
+    width: 400px;
+
+  }
+  .review-img img{
+    width: 100%;
+   
+  }
+  .review-content h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: PlusJakartaBold;
+  }
+  .review-content p{
+    margin:2rem 0;
+    
+  }
+  .review-content button{
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px black solid;
+    background-color: transparent;
+    color:black;
+    margin-top: 2rem;
+    transition: .5s;
+    
+
+  }
+  .review-content button:hover{
+    background-color: white;
+    color: #4475F2;
+
+  }
+
+
 
 
   @media(max-width:768px){
@@ -151,7 +203,43 @@ height: 50%;
       
       
     }
+    .global-review{
+      padding:0 2rem;
+      margin-top: 2rem;
+    }
+    .travel-review{
+      display: flex;
+      flex-direction: column;
+      padding:1rem;
+      border-radius: 2rem;
+      
+    }
+    .review-img {
+      width: 100%;
+    }
 
+    .review-content h1{
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-family: PlusJakartaBold;
+    }
+    .review-content p{
+      margin:1rem 0;
+      
+    }
+    .review-content button{
+      padding: 0.8rem 1.5rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      border: 1px black solid;
+      background-color: transparent;
+      color:black;
+      margin-top: 0.4rem;
+      transition: .5s;
+      
+  
+    }
+ 
 
 
 
