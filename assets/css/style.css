@@ -1,9 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -136,14 +133,14 @@ body {
   .about-container-image {
     position: absolute;
     top: -40px;
-    right: -0.30%;
+    right: -0.3%;
     height: 398.6px;
   }
   .about-text {
     width: 35%;
     margin-left: 7rem;
   }
-  .about-text h1{
+  .about-text h1 {
     font-size: 3rem;
     margin-top: 2rem;
   }
