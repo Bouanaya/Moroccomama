@@ -40,7 +40,6 @@ nav {
   }
   nav {
     padding: 0;
-    background-color: var(--second-font-color);
   }
 
   nav .navbar {
