@@ -150,8 +150,7 @@ nav {
     gap: 1rem;
     margin-right: 2.5rem;
   }
-  .sign-delate .delate,
-  .sign-in {
+  .sign-delate .delate{
     width: 4rem;
     height: 4rem;
     background-color: var(--blue-primary);
@@ -160,6 +159,31 @@ nav {
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
+  }
+  .sign-in{
+    width: 6rem;
+    height: 4rem;
+    background-color: var(--blue-primary);
+    display: flex;
+    align-items: center;
+    border-radius:1rem;
+    padding: 0 0.3rem;
+    
+    position: relative;
+    
+
+  }
+  .sign-in .select-sign{
+
+    position: absolute;
+    left: 0;
+    bottom:-1.3rem;
+    border: none;
+    width: 100%;
+    color: #9A9EA6;
+    outline: none;
+    cursor: pointer;
+  
   }
   .sign-in.active {
     background-color: #e3ebfd;
@@ -297,9 +321,9 @@ nav {
 .custom-video {
   position: relative;
   width: 100%;
-  height: 500px;
+  height:100vh;
   overflow: hidden;
-  margin-top: 100px;
+   
   margin-bottom: 2rem;
 }
 
