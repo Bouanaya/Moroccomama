@@ -44,7 +44,21 @@
                 </div>
               </div>
               <div class="menu">
-                <img src="../assets/icons/menu.svg" alt="" />
+                
+                <select
+                name="sign"
+                id="select-menu"
+                class="select-menu"
+                onchange="navigatorLink()"
+              >
+                <option value="foods">FOODS</option>
+                <option value="../index.html">Home</option>
+                <option value="../pages/moroccanFoods.html">Foods</option>
+                <option value="../pages/traveltips.html">traveltips</option>
+                <option value="../pages/contact.html">contact</option>
+                <option value="../pages/login.html">login</option>
+                <option value="../pages/signup.html">signup</option>
+              </select>
               </div>
             </div>
           </div>
@@ -66,9 +80,9 @@
                 <img src="../assets/icons/delate.svg" alt="" />
                 <select
                 name="sign"
-                id="linkselect"
+                id="select-sign"
                 class="select-sign"
-                onchange="navigatorLink()"
+                onchange="selectLinks()"
               >
                 <option value=""></option>
                 <option value="../pages/signup.html">Sign Up</option>
@@ -81,6 +95,13 @@
       </div>
       <!-- create header -->
     </header>
+    <section>
+      <div class="custom-video">
+        <div class="custom-video-play" >
+        <video autoplay muted src="../assets/media/We dream big.mkv"width="100%" type="video/mp4"></video>
+        </div>
+    </div>
+    </section>
 
     <!-- create main -->
     <main>
@@ -180,17 +201,10 @@
               </p>
             </div>
           </div>
-
-          <div class="card">
-            <div class="img-cont">
-              <img src="../assets/images/Home/tagine.svg" alt="Tagine image" />
-              <p class="description">
-                <span>Tagine</span> is a traditional Moroccan dish cooked in an
-                earthenware pot. It combines meat, vegetables, and spices for a
-                rich, flavorful meal.
-              </p>
-            </div>
-          </div>
+        </div>
+        <div class="buttons">
+          <button class="previous">previous</button>
+          <button class="next">next</button>
         </div>
       </section>
     </main>

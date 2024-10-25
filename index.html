@@ -49,7 +49,21 @@
                 </div>
               </div>
               <div class="menu">
-                <img src="./assets/icons/menu.svg" alt="" />
+                
+                <select
+                name="sign"
+                id="linkselect"
+                class="select-menu"
+                onchange="navigatorLink()"
+              >
+                <option value="menu">HOME</option>
+                <option value="./index.html">Home</option>
+                <option value="./pages/moroccanFoods.html">Foods</option>
+                <option value="./pages/traveltips.html">traveltips</option>
+                <option value="./pages/contact.html">contact</option>
+                <option value="./pages/login.html">login</option>
+                <option value="./pages/signup.html">signup</option>
+              </select>
               </div>
             </div>
           </div>
@@ -69,9 +83,9 @@
                 <img src="./assets/icons/delate.svg" alt="" />
                 <select
                   name="sign"
-                  id="linkselect"
+                  id="select-sign"
                   class="select-sign"
-                  onchange="navigatorLink()"
+                  onchange="selectLinks()"
                 >
                   <option value=""></option>
                   <option value="./pages/signup.html">Sign Up</option>
@@ -84,6 +98,7 @@
       </div>
       <!-- create header -->
     </header>
+    <!--section video-->
     <section>
       <div class="custom-video">
         <div class="custom-video-play" >
@@ -91,12 +106,97 @@
         </div>
     </div>
     </section>
+<<<<<<< HEAD
+    <!--Section destination cards & popular-->
+    <section>
+      <div class="trending">
+        <h2>✈️ Trending Destination</h2>
+        <div class="size">
+                <p>• Find your favourite destination </p>
+                <a href="#">see all > </a>
+        </div>
+
+        <div class="destination-cards">
+            <div class="card">
+                <img src="assets/images/destination/image.svg" alt="Jamee El Fna">
+                <div class="card-info">
+                    <h3>Jamee El Fna</h3>
+                    <p>Marrakech</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/destination/vevey.svg" alt="Mosque Mohamed V" >
+                <div class="card-info1">
+                    <h3>Mosque Mohamed V</h3>
+                    <p>Casablanca</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/destination/mask.svg" alt="Kawah Ijen">
+                <div class="card-info2">
+                    <h3>Kawah Ijen</h3>
+                    <p>Chefchaouen</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/destination/dakhla.svg" alt="dakhla">
+                <div class="card-info3">
+                    <h3>Dakhla</h3>
+                    <p>Dakhla</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!--Popular makla-->
+
+    <div class="popular">
+        <h2>✈️ Poupular Foods</h2>
+        <div class="size">
+                <p>• Read the Latest Posts</p>
+                <a href="#">see all > </a>
+        </div>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="assets/images/destination/image.svg" alt="Jamee El Fna">
+                <div class="card-info">
+                    <h3>Jamee El Fna</h3>
+                    <p>Marrakech</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/destination/vevey.svg" alt="Mosque Mohamed V">
+                <div class="card-info1">
+                    <h3>Mosque Mohamed V</h3>
+                    <p>Casablanca</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/destination/mask.svg" alt="Kawah Ijen">
+                <div class="card-info2">
+                    <h3>Kawah Ijen</h3>
+                    <p>Chefchaouen</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/destination/dakhla.svg" alt="dakhla">
+                <div class="card-info3">
+                    <h3>Dakhla</h3>
+                    <p>Dakhla</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    </section>
+=======
     
+>>>>>>> 43723a7acc8bd1f95c20b934508e3ceaf6b2bc51
     <section>
       <!-- section3 map and blog -->
       <div class="tourist-section">
         <div class="container-header">
-          <h1>Fint a tourist attraction near to you</h1>
+          <h1>Find a tourist attraction near to you</h1>
           <p>
             A popular tourist spot that everyone around you will definitely know
             about.

@@ -44,7 +44,21 @@
                 </div>
               </div>
               <div class="menu">
-                <img src="../assets/icons/menu.svg" alt="" />
+                
+                <select
+                name="sign"
+                id="select-menu"
+                class="select-menu"
+                onchange="navigatorLink()"
+              >
+                <option value="contact">CONTACT</option>
+                <option value="../index.html">Home</option>
+                <option value="../pages/moroccanFoods.html">Foods</option>
+                <option value="../pages/traveltips.html">traveltips</option>
+                <option value="../pages/contact.html">contact</option>
+                <option value="../pages/login.html">login</option>
+                <option value="../pages/signup.html">signup</option>
+              </select>
               </div>
             </div>
           </div>
@@ -66,9 +80,9 @@
                 <img src="../assets/icons/delate.svg" alt="" />
                 <select
                 name="sign"
-                id="linkselect"
+                id="select-sign"
                 class="select-sign"
-                onchange="navigatorLink()"
+                onchange="selectLinks()"
               >
                 <option value=""></option>
                 <option value="../pages/signup.html">Sign Up</option>
