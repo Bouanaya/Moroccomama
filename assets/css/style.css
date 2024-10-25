@@ -393,11 +393,171 @@ footer {
 
 
 
-
-
-
-
   .lower ul {
       display: none;
 }
+}
+
+
+/*section destination cards*/
+
+.trending, .popular {
+  max-width: 1200px;
+  margin: 6rem auto;
+  text-align: left;
+}
+
+.size{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.size p{
+  font-family: PlusJakartaExtraBold;
+}
+
+.trending h2, .popular h2 {
+  font-family: ExtraBold;
+  color: #4475F2;
+  margin-bottom: 10px;
+}
+
+.trending a, .popular a{
+  text-decoration: none;
+}
+
+.destination-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-info  {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  width: 200px;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  bottom:0 ;
+
+}
+
+.card-info1  {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  width: 200px;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  bottom:0 ;
+
+}
+.card-info2 {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  width: 200px;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  bottom:0 ;
+
+}
+.card-info3  {
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  width: 200px;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  bottom:0 ;
+
+}
+
+.card-info h3, .card-info1 h3, .card-info2 h3, .card-info3 h3 {
+
+  color: #042521;
+
+}
+
+.card-info p, .card-info1 p, .card-info2 p, .card-info3 p {
+  font-family: PlusJakartaSemiBold;
+  color: #80918E;
+}
+
+
+
+@media (max-width: 750px) {
+  .trending, .popular {
+      margin: 15px ; 
+  }
+
+  .size {
+      flex-direction: column; 
+  }
+
+  .destination-cards {
+      flex-direction: column; 
+      flex-wrap: wrap;
+      gap: 12px; 
+  }
+
+  .card {
+      width: 100%; 
+  }
+
+  .card-info, .card-info1, .card-info2, .card-info3 {
+      width: 100%; 
+  }
+
+  .trending h2, .popular h2 {
+      font-size: 1.5em; 
+  }
+
+  .size a {
+      display: none;
+
+  }
+}
+
+
+
+
+
+
+
+body > section > div.trending > div.destination-cards > div{
+  padding: 0;
+}
+
+body > section > div.popular > div.destination-cards > div{
+  padding: 0;
 }
