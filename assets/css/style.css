@@ -329,6 +329,10 @@ nav {
    margin-top: 10px;
   margin-bottom: 2rem;
 }
+.select-menu{
+  border: none;
+  
+}
 
 .custom-video custom-video-play {
   width: 100%;
