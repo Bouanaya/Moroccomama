@@ -79,6 +79,27 @@ main {
   filter: blur(3px);
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.buttons .next, .buttons .previous {
+  width: 90px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: var(--blue-secondary);
+  /* margin: 0 19%; */
+  font-family: PlusJakartaBold;
+  text-align: center;
+  border: none;
+  display: inline;
+  color: white;
+  cursor: pointer;
+}
+
+
 
 @media only screen and ((min-width: 700px) and (max-width: 1000px)) {
   .food-cards {
