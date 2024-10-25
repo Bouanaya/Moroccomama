@@ -59,7 +59,7 @@ header {
 }
 
 .login-form input::placeholder {
-  color: #969BAB;
+  color: #969bab;
 }
 .login-form label {
   display: none;
@@ -118,8 +118,8 @@ header {
   justify-content: space-around;
 }
 .login-with-btn button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   border: none;
   padding: 1rem;
   border-radius: 1rem;
@@ -141,18 +141,28 @@ header {
   margin-top: 1rem;
 }
 
-.login-with-span{
-  color: #4737FF;
+.login-with-span {
+  color: #4737ff;
   font-weight: bolder;
   font-size: 2rem;
   padding: 0rem 1rem 0rem 1rem;
 }
-.social-media{
- align-content: center;
+.social-media {
+  align-content: center;
+}
+
+form .parsley-error {
+  border: 1px solid red;
+}
+.parsley-errors-list li {
+  color: red;
+  font-size: 0.875em;
+  margin-top: -2rem;
+  margin-left: 4rem;
+  position: absolute;
 }
 
 @media only screen and (min-width: 1280px) {
-  
   .auth-header {
     width: 60%;
     top: -115px;
@@ -204,10 +214,16 @@ header {
     width: 62%;
     margin-bottom: -0.5rem;
   }
-  .login-with-span{
-    color: #4737FF;
+  .login-with-span {
+    color: #4737ff;
     font-weight: bolder;
     font-size: 2.5rem;
     padding: 2rem;
-}
+  }
+  form .parsley-error {
+    margin-left: 41rem;
+  }
+  .parsley-errors-list li {
+    margin-left: 42rem;
+  }
 }
