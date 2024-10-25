@@ -63,3 +63,25 @@ p {
     flex-direction: column;
   }
 }
+
+
+/* Special Partners section */
+
+.special-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.special-partners h2 {
+  font-size: 3rem;
+  font-family: PlusJakartaBold; 
+}
+
+.partners-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
