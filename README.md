@@ -1,4 +1,4 @@
-# Moroccomama Project
+# MarocMama Project
 
 Welcome to Marocmama project reporsitory, this website is dedicated to sharing Moroccan food recipes, destinations, travel exprerience and cultural insights about morocco also help and insipire visitors to get a general informations about the beauty and richness of morocco foods and cities.
 
@@ -43,7 +43,7 @@ This is a multiple pages responsive web project about Morocco, has the best dest
 
 ## Usage
 
-- To access to our project, visit the following link: **[Marocmama](https://marocmama.com)**
+- To access to our project, visit the following link: **[Marocmama](https://bouanaya.github.io/Moroccomama/)**
 - To run the page locally:
 
 1. Clone the reporsitory locally:
@@ -52,9 +52,11 @@ This is a multiple pages responsive web project about Morocco, has the best dest
   git clone https://github.com/Bouanaya/Moroccomama.git
 ```
 
+2. Open index.html file to run the project locally.
+
 ## Authors
 
 - [Bouanaya soufiane](https://github.com/Bouanaya)
-- [Ayman](https://github.com/AymanElh)
-- [Amina](https://github.com/K-amina)
-- [Rayan](https://github.com/rayan4-dot)
+- [EL HAMIOUI Ayman](https://github.com/AymanElh)
+- [Kara Amina](https://github.com/K-amina)
+- [Elguerdaoui Rayan](https://github.com/rayan4-dot)
