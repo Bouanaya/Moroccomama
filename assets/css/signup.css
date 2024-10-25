@@ -3,9 +3,6 @@ body {
   height: 100%;
   margin: 0;
 }
-.first-nav h2 {
-  color: white;
-}
 
 .auth-container {
   position: relative;
