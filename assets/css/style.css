@@ -320,11 +320,113 @@ nav {
 }
 
 
+/*Footer section*/
+footer {
+  background-color: #f9f9f9;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 20px;
+  padding: 30px;
+  color: #333;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* Logo Section */
+.single-column  {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  gap: 10px;
+}
+.single-column img{
+  width: 30px;
+  height: 30px;
+}
+
+/* About Section */
+.about, .support, .FAQ {
+  flex-basis: 15%;
+}
+.about div, .support div, .FAQ div {
+  font-family: PlusJakartaBold;
+}
+
+
+.about li, .support li, .FAQ li, .lower li {
+  margin-bottom: 10px;
+}
 
 
 
+/* list in about, support, faq sections */
+footer li {
+  color: var(--third-font-color);
+}
 
-
-
+/* Lower Navigation Section */
+.lower {
+  flex-basis: 100%;
+  
+  border-top: 1px solid #e5e5e5;
  
+  text-align: center;
+}
 
+.lower ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.lower ul li {
+  margin: 0 15px;
+  font-size: 14px;
+  color: #9A9EA6;
+}
+
+@media (max-width: 767px) {
+  .footer-links{
+      flex-direction: column;
+      align-items: start; 
+      margin-bottom: 50px;
+      justify-content: start;
+      gap: 10px;
+  }
+
+  .about ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+
+
+
+@media (max-width:767px){
+  .support ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+}
+  .FAQ ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+
+  .lower ul {
+      display: none;
+}
+}
