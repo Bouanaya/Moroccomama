@@ -331,109 +331,71 @@ nav {
 
 /*Footer section*/
 footer {
-  background-color: #f9f9f9;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 8rem;
-  margin-bottom: 20px;
-  padding: 30px;
-  color: #333;
+  padding: 2rem;
+  background-color: rgb(220, 236, 241);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 5rem;
 }
 
 .footer-links {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 4rem;
-  align-items: center;
+  justify-content: space-around;
+  align-items: start;
 }
 
-/* Logo Section */
-.single-column  {
+.logo-title {
+  display: flex;
+}
+
+.about h3, .support h3, .FAQ h3 {
+  font-size: 1.6rem;
+  font-family: PlusJakartaBold;
+  margin-bottom: 1.7rem;
+}
+
+.single-column p{
+  margin-bottom: 1rem ;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-links ul {
   display: flex;
   flex-direction: column;
-  font-size: small;
-  gap: 10px;
-}
-.single-column img{
-  width: 30px;
-  height: 30px;
-}
-
-/* About Section */
-.about, .support, .FAQ {
-  flex-basis: 15%;
-}
-.about div, .support div, .FAQ div {
-  font-family: PlusJakartaBold;
-}
-
-
-.about li, .support li, .FAQ li, .lower li {
-  margin-bottom: 10px;
-}
-
-
-
-/* list in about, support, faq sections */
-footer li {
-  color: var(--third-font-color);
-}
-
-/* Lower Navigation Section */
-.lower {
-  flex-basis: 100%;
-  
-  border-top: 1px solid #e5e5e5;
- 
-  text-align: center;
+  gap: 1.2rem;
 }
 
 .lower ul {
-  list-style-type: none;
-  padding: 0;
+  width: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-.lower ul li {
-  margin: 0 15px;
-  font-size: 14px;
-  color: #9A9EA6;
-}
 
-@media (max-width: 767px) {
+@media (max-width: 750px) {
   .footer-links{
-      flex-direction: column;
-      align-items: start; 
-      margin-bottom: 50px;
-      justify-content: start;
-      gap: 10px;
+    flex-direction: column;
+    gap: 2rem;
   }
 
-  .about ul {
-      display: flex;
-      width: 100%;
+  .footer-links  h3{
+  margin: 0;
+  }
+
+  .about ul ,  .support ul , .FAQ ul {
+      flex-direction: row;
+      gap: 0.5rem;
       flex-wrap: wrap;
-      gap: 1rem;
   }
 
 
 
-@media (max-width:767px){
-  .support ul {
-      display: flex;
-      width: 100%;
-      flex-wrap: wrap;
-      gap: 1rem;
-  }
-}
-  .FAQ ul {
-      display: flex;
-      width: 100%;
-      flex-wrap: wrap;
-      gap: 1rem;
-  }
+
+
+
 
   .lower ul {
       display: none;
