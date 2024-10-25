@@ -1,0 +1,262 @@
+.heroTraveltips{
+  background-image: url(../images/travelExperience/best-things-to-do-fes-morocco-buy-rug.jpg);
+  width: 100vw;
+  height:95vh;
+  background-size: cover;
+  margin: 1rem 0;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.heroCaption{
+  width: 70%;
+height: 50%;
+  padding: 5rem;
+  background-color:rgba(255, 255, 255, 0.477);
+  
+  
+}
+.heroCaption h1{
+  margin-bottom: 1rem ;
+
+}
+.heroCaption p{
+  margin-bottom:3rem;
+
+}
+.heroCaption button:hover{
+  background-color:#4475f2c9;
+
+}
+.heroCaption button{
+  margin-bottom: 1rem;
+  padding: 0.7rem 1.5rem;
+    border:none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color:#4475F2;
+    color: white;
+    transition: .5s;
+
+}
+.travelExperience{
+  margin-top: 2rem;
+}
+
+.infoExperience{
+  display: flex;
+  justify-content:space-between;
+  padding: 0 3rem;
+}
+ .infoExperience .info h1 {
+    font-family: PlusJakartaExtraBold;
+  }
+  .para-info {
+    margin-top: 2rem;
+  }
+ 
+  .infoExperience a {
+    color: var(--blue-primary);
+     
+    font-size: 1.2rem;
+    display: flex;
+  }
+  .tripDetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .tripImg{
+    padding: 3rem;
+  }
+  .tripImg img{
+    border-radius: 2rem;
+    height: 100%;
+    border-radius: 2rem;
+  }
+  .boxs{
+    padding:3rem ;
+  }
+  .box-trips{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    
+  }
+  .box-trips img{
+    border-radius: 2rem;
+    cursor:pointer;
+    transition:.5s;
+  }
+  .box-trips img:hover{
+    opacity: 0.8;
+  }
+  .box-trips h1{
+    color: var(--blue-primary);
+  }
+  .box-trips p{
+    font-size:1.4rem;
+    color:gray;
+    margin: 1.5rem 0;
+  }
+  .box-trips button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    background-color:#4475F2;
+    color: white;
+
+    
+  }
+  .global-review{
+    padding:0 3rem;
+    margin-top: 3rem;
+  }
+  .travel-review{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #4475F2;
+     justify-content: center;
+     align-items: center;
+     padding: 0 3rem;
+     border-radius: 3rem;
+    
+  }
+  .review-img {
+    padding:2rem;
+    width: 400px;
+
+  }
+  .review-img img{
+    width: 100%;
+   
+  }
+  .review-content h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: PlusJakartaBold;
+  }
+  .review-content p{
+    margin:2rem 0;
+    
+  }
+  .review-content button{
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px black solid;
+    background-color: transparent;
+    color:black;
+    margin-top: 2rem;
+    transition: .5s;
+    
+
+  }
+  .review-content button:hover{
+    background-color: white;
+    color: #4475F2;
+
+  }
+
+
+
+
+  @media(max-width:768px){
+.container{
+  padding: 0 1rem;
+}
+.infoExperience a {
+  display: none;
+}
+    .tripDetails{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       
+    }
+   
+    .tripImg img{
+      width: 100%;
+    }
+    .boxs{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-top: 2px solid var(--blue-primary);
+    }
+    .box-trips{
+      display:flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .box-trips img{
+      width: 100%;
+    }
+    .heroCaption{
+      width: 75%;
+    height: 60%;
+      padding: 5rem;
+      background-color:rgba(255, 255, 255, 0.477);
+      
+      
+    }
+    .global-review{
+      padding:0 2rem;
+      margin-top: 2rem;
+    }
+    .travel-review{
+      display: flex;
+      flex-direction: column;
+      padding:1rem;
+      border-radius: 2rem;
+      
+    }
+    .review-img {
+      width: 100%;
+    }
+
+    .review-content h1{
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-family: PlusJakartaBold;
+    }
+    .review-content p{
+      margin:1rem 0;
+      
+    }
+    .review-content button{
+      padding: 0.8rem 1.5rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      border: 1px black solid;
+      background-color: transparent;
+      color:black;
+      margin-top: 0.4rem;
+      transition: .5s;
+      
+  
+    }
+ 
+
+
+
+    
+  }
+
+ 
+
+  
+
+
+
+
+
+
+ 
+ 
+
+ 
+ 

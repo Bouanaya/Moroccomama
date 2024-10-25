@@ -1,12 +1,10 @@
- 
-body{
-    font-size: 14px;
-    text-transform: initial;
-   
-    overflow-x:hidden;
-    width: 100vw;
-    height: 100vh;
+body {
+  font-size: 14px;
+  text-transform: initial;
 
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 .container {
   padding: 0 2rem;
@@ -30,8 +28,8 @@ nav {
 .res {
   display: none;
 }
-.nav-buttom{
-    display: none;
+.nav-buttom {
+  display: none;
 }
 
 /* Desktop header */
@@ -40,12 +38,12 @@ nav {
   .container {
     padding: 0 3rem;
   }
-  nav{
+  nav {
     padding: 0;
     background-color: var(--second-font-color);
   }
 
-  nav .navbar{
+  nav .navbar {
     border-bottom: 1px solid var(--third-font-color);
 
     padding: 1rem 0;
@@ -60,7 +58,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 1rem;
-
   }
   .logo h1 {
     font-size: 2rem;
@@ -112,7 +109,7 @@ nav {
   .location-img {
     width: 3.5rem;
     height: 3.5rem;
-    background-color:#E3EBFD;
+    background-color: #e3ebfd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,61 +117,54 @@ nav {
   }
   .sel-location .location p {
     color: var(--third-font-color);
-
   }
-  .sel-location .location select{
+  .sel-location .location select {
     outline: none;
     border: none;
 
-   color: var( --blue-primary);
+    color: var(--blue-primary);
     background-color: transparent;
   }
 
-  .nav-buttom{
+  .nav-buttom {
     display: flex;
     justify-content: space-between;
     padding: 0.4rem 0;
   }
-  .nav-buttom ul{
+  .nav-buttom ul {
     display: flex;
     justify-content: space-between;
     width: 50%;
     padding: 0.4rem 0;
     margin-left: 9rem;
-
-
   }
-  .nav-buttom ul li a{
+  .nav-buttom ul li a {
     font-size: 1.5rem;
     font-family: PlusJakartaBold;
   }
-  .nav-buttom ul li a.active{
-    color:var(--blue-primary) ;
-
+  .nav-buttom ul li a.active {
+    color: var(--blue-primary);
   }
 
-  .sign-delate{
+  .sign-delate {
     display: flex;
     gap: 1rem;
-    margin-right:2.5rem ;
+    margin-right: 2.5rem;
   }
-  .sign-delate .delate , .sign-in{
+  .sign-delate .delate,
+  .sign-in {
     width: 4rem;
     height: 4rem;
-    background-color:var(--blue-primary);
+    background-color: var(--blue-primary);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
   }
-  .sign-in.active{
-    background-color:#E3EBFD;
-
+  .sign-in.active {
+    background-color: #e3ebfd;
   }
-
-
-
 }
 
 /* <!-- create header --> */
@@ -302,4 +292,142 @@ nav {
     font-size: 3rem;
     margin-top: 2rem;
   }
+ 
+}
+
+.custom-video {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-bottom: 2rem;
+}
+
+.custom-video custom-video-play {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-video::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+/*Footer section*/
+footer {
+  background-color: #f9f9f9;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 20px;
+  padding: 30px;
+  color: #333;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* Logo Section */
+.single-column  {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  gap: 10px;
+}
+.single-column img{
+  width: 30px;
+  height: 30px;
+}
+
+/* About Section */
+.about, .support, .FAQ {
+  flex-basis: 15%;
+}
+.about div, .support div, .FAQ div {
+  font-family: PlusJakartaBold;
+}
+
+
+.about li, .support li, .FAQ li, .lower li {
+  margin-bottom: 10px;
+}
+
+
+
+/* list in about, support, faq sections */
+footer li {
+  color: var(--third-font-color);
+}
+
+/* Lower Navigation Section */
+.lower {
+  flex-basis: 100%;
+  
+  border-top: 1px solid #e5e5e5;
+ 
+  text-align: center;
+}
+
+.lower ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.lower ul li {
+  margin: 0 15px;
+  font-size: 14px;
+  color: #9A9EA6;
+}
+
+@media (max-width: 767px) {
+  .footer-links{
+      flex-direction: column;
+      align-items: start; 
+      margin-bottom: 50px;
+      justify-content: start;
+      gap: 10px;
+  }
+
+  .about ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+
+
+
+@media (max-width:767px){
+  .support ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+}
+  .FAQ ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1rem;
+  }
+
+  .lower ul {
+      display: none;
+}
 }

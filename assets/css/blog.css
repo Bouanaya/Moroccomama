@@ -1,0 +1,147 @@
+/* blogs */
+.blogs {
+  padding: 0 3rem;
+  margin: 3rem 0;
+}
+.blogs p {
+  color: #4737ff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.blog-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-title h1 {
+  font-size: 3.5rem;
+}
+.blog-title a {
+  font-size: 1.4rem;
+  font-family: PlusJakartaBold;
+  color: var(--blue-primary);
+  display: flex;
+}
+.blog-content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.cart-blog {
+  width: 25%;
+  border: 1px solid rgba(128, 128, 128, 0.189);
+
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+  border-radius: 2rem;
+}
+.cart-blog img {
+  width: 100%;
+  height: 200px;
+  border-radius: 2rem 2rem 0 0;
+}
+.cont {
+  margin-top: 0.5rem;
+  padding: 1.5rem;
+}
+.cont p {
+  color: #737373;
+}
+.cont h2 {
+  margin: 1rem 0;
+}
+.cont a {
+  margin-top: 0.5rem;
+}
+.vidoe-blog {
+  width: 75%;
+  height: 43rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vidoe-blog img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  position: absolute;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+}
+.vidoe-blog img.play {
+  width: 8rem;
+  height: 8rem;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.vidoe-blog img.play:hover {
+  opacity: 1;
+}
+.img-blogs {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 20rem;
+  background-image: url(../images/Home/rozd-trip-au-maroc-43-1536x864.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+  padding: 7rem 2rem 0 2rem;
+  color: white;
+}
+.img-blogs h3 {
+  font-family: PlusJakartaBold;
+  font-size: large;
+}
+.img-blogs p {
+  color: white;
+  margin: 2rem 0;
+  font-weight: 200;
+}
+.img-blogs ul {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  font-size: small;
+  color: white;
+}
+.img-blogs ul li a {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .blogs p {
+    font-size: 1.5rem;
+  }
+
+  .blogs {
+    padding: 0 1rem;
+    margin: 3rem 0;
+  }
+  .blog-title a {
+    display: none;
+  }
+  .blog-content {
+    flex-direction: column;
+  }
+  .cart-blog {
+    width:100%;
+  }
+  .vidoe-blog {
+    width: 100%;
+    height: 43rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vidoe-blog img {
+    object-fit: cover;
+  }
+  .img-blogs{
+    color: black;
+    padding: 1rem;
+    background-image: none;
+    background-color:var(--blue-primary);
+  }
+}
