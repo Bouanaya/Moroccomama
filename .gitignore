@@ -1,1 +1,8 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Fig settings folder
+.fig/
+
+# Ignore macOS system files
 .DS_Store
