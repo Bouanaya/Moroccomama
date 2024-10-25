@@ -30,7 +30,7 @@ header {
 }
 
 .login-title {
-   color: var(--blue-primary);
+  color: var(--blue-primary);
   display: flex;
   justify-content: center;
   margin-top: 7rem;
@@ -61,7 +61,7 @@ header {
 }
 
 .login-form input::placeholder {
-  color: #969BAB;
+  color: #969bab;
 }
 .login-form label {
   display: none;
@@ -169,6 +169,16 @@ header {
   align-content: center;
 }
 
+form .parsley-error {
+  border: 1px solid red;
+}
+.parsley-errors-list li {
+  color: red;
+  font-size: 0.875em;
+  margin-top: -2rem;
+  margin-left: 4rem;
+  position: absolute;
+}
 @media only screen and (min-width: 1280px) {
   .auth-header {
     width: 60%;
@@ -233,5 +243,11 @@ header {
   .auth-footer-mobile img {
     width: 62%;
     margin-bottom: -0.5rem;
+  }
+  form .parsley-error {
+    margin-left: 41rem;
+  }
+  .parsley-errors-list li {
+    margin-left: 42rem;
   }
 }
