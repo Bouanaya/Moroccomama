@@ -429,6 +429,7 @@ footer {
   max-width: 1200px;
   margin: 6rem auto;
   text-align: left;
+  font-family: PlusJakartaMeduim;
 }
 
 .size{
@@ -442,7 +443,7 @@ footer {
 }
 
 .trending h2, .popular h2 {
-  font-family: ExtraBold;
+  font-family: PlusJakartaMeduim;
   color: #4475F2;
   margin-bottom: 10px;
 }
