@@ -1,0 +1,213 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.auth-container {
+  position: relative;
+  width: 100vw;
+  height: auto;
+}
+.auth-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+}
+.auth-header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.login-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  color: var(--blue-primary);
+}
+.login-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.login-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.login-form input {
+  background-color: #eeeff4;
+  color: var(--blue-primary);
+}
+
+.login-form input {
+  padding: 2rem 7rem 2rem 4rem;
+  width: 91%;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 1.5rem;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.login-form input::placeholder {
+  color: #969BAB;
+}
+.login-form label {
+  display: none;
+}
+.Login-btn {
+  background-color: var(--blue-primary);
+  padding: 2rem;
+  border: none;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  box-shadow: 1px 1px;
+  border-radius: 1.5rem;
+  color: var(--second-font-color);
+  font-size: 2rem;
+  width: 90%;
+  margin-left: 2rem;
+}
+.login-form input:focus {
+  outline: none;
+  border: 1px solid var(--blue-primary);
+}
+/* icons */
+.email-icon {
+  position: absolute;
+  left: 3rem;
+  bottom: 19.4rem;
+}
+.password-icon {
+  position: absolute;
+  left: 3rem;
+  bottom: 12.2rem;
+}
+.visibility-icon {
+  position: absolute;
+  right: 3rem;
+  bottom: 12rem;
+}
+.remember-password {
+  display: flex;
+  justify-content: space-around;
+}
+.check {
+  display: flex;
+  align-items: center;
+}
+.forget-pass {
+  color: #df5d5d;
+}
+.login-with {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.login-with-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.login-with-btn button {
+    display: flex;
+    justify-content: center;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 32%;
+  font-size: 1.5rem;
+}
+.login-with-btn button:first-child {
+  color: #8079f3;
+  background-color: #f3f2fc;
+}
+.login-with-btn button:last-child {
+  color: var(--second-font-color);
+  background-color: #4475f2;
+}
+/* here is the footer image */
+
+.auth-footer-mobile {
+  margin-top: 1rem;
+}
+
+.login-with-span{
+  color: #4737FF;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+.social-media{
+ align-content: center;
+}
+
+@media only screen and (min-width: 1280px) {
+  
+  .auth-header {
+    width: 60%;
+    top: -115px;
+    left: 5%;
+  }
+  .auth-header img {
+    width: 160%;
+    height: auto;
+    display: block;
+  }
+  .login-title {
+    margin-top: 18rem;
+  }
+  .login-form input {
+    padding: 2rem 7rem 2rem 6rem;
+    width: 40%;
+    margin-left: 41rem;
+  }
+  .check {
+    display: flex;
+    align-items: center;
+    margin-right: -69rem;
+  }
+  .Login-btn {
+    width: 40%;
+    margin-left: 41rem;
+  }
+  .login-with-btn {
+    width: 40%;
+    margin-left: 40rem;
+  }
+  .email-icon {
+    position: absolute;
+    left: 43rem;
+    top: 62.4rem;
+  }
+  .password-icon {
+    position: absolute;
+    left: 43rem;
+    top: 69.2rem;
+  }
+  .visibility-icon {
+    position: absolute;
+    left: 90rem;
+    top: 69.2rem;
+  }
+
+  .auth-footer-mobile img {
+    width: 62%;
+    margin-bottom: -0.5rem;
+  }
+  .login-with-span{
+    color: #4737FF;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+}

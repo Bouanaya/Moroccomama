@@ -44,7 +44,21 @@
                 </div>
               </div>
               <div class="menu">
-                <img src="../assets/icons/menu.svg" alt="" />
+                
+                <select
+                name="sign"
+                id="select-menu"
+                class="select-menu"
+                onchange="navigatorLink()"
+              >
+                <option value="contact">CONTACT</option>
+                <option value="../index.html">Home</option>
+                <option value="../pages/moroccanFoods.html">Foods</option>
+                <option value="../pages/traveltips.html">traveltips</option>
+                <option value="../pages/contact.html">contact</option>
+                <option value="../pages/login.html">login</option>
+                <option value="../pages/signup.html">signup</option>
+              </select>
               </div>
             </div>
           </div>
@@ -64,6 +78,16 @@
               </div>
               <div class="sign-in active">
                 <img src="../assets/icons/delate.svg" alt="" />
+                <select
+                name="sign"
+                id="select-sign"
+                class="select-sign"
+                onchange="selectLinks()"
+              >
+                <option value=""></option>
+                <option value="../pages/signup.html">Sign</option>
+                <option value="../pages/login.html">Sign up</option>
+              </select>
               </div>
             </div>
           </div>
@@ -128,6 +152,69 @@
         </div>
       </section>
     </div>
+    <footer>
+      <div class="footer-links">
+          <div class="single-column">
+              <div class="logo-title">
+                <img src="../assets/images/Home/icon-512 2.png" alt="logo"> 
+              <h2>MarocMama</h2>
+              </div>
+              <p>Destination is a website or application service that helps you choose or <br> recommend places dubbed 'hidden gems' to make them better known <br> and more popular. <span style="color:#4475F2;">Read More</span> </p>
+              <p>212 851-5616-2840</p>
+              <p>Contact@destinize.ma</p>
+              <p>bd Mohammed V, espace Idriss 7° Casablanca</p>
+              <p>212 851-5616-2840</p>
+              <p>© 2024-2025, All Rights Reserved</p>
+          </div>
+    
+          <div class="about">
+            <h3>About</h3>
+              <ul>
+                  <!--<li class="about-class">About</li>-->
+                  <li>About Us</li>
+                  <li>Blog</li>
+                  <li>Career</li>
+                  <li>Work</li>
+                  <li>News</li>
+                  <li>Gallery</li>
+                  <li>Affiliation</li>
+              </ul>
+          </div>
+          <div class="support">
+            <h3>Support</h3>
+              <ul>
+                  <li>Contact Us</li>
+                  <li>Online Chat</li>
+                  <li>Whatsapp</li>
+                  <li>Telegram</li>
+                  <li>Tiket</li>
+                  <li>Call Center</li>
+                  <li>Help</li>
+              </ul>
+          </div>
+          <div class="FAQ">
+            <h3>FAQ</h3>
+              <ul>
+                  <li>Account</li>
+                  <li>Organize</li>
+                  <li>Order</li>
+                  <li>Payment</li>
+                  <li>Return</li>
+                  <li>Copyright</li>
+                  <li>Language</li>
+              </ul>
+          </div>
+      </div>
+         <div class="lower">
+            <ul>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>Privacy & policy</li>
+                <li>Sitemap</li>
+                <li>Usage Guide</li>
+            </ul>
+        </div>
+    </footer>
     <script src="../js/app.js"></script>
   </body>
 </html>

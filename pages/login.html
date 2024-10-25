@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../assets/css/global.css" />
+    <link rel="stylesheet" href="../assets/css/about.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+  </head>
+  <body>
+    <div class="header-backrgound">
+      <div class="auth-container">
+        <header>
+          <!-- create header -->
+          <div class="container">
+            <nav>
+              <div class="navbar">
+                <div class="first-nav">
+                  <div class="logo">
+                    <img
+                      src="../assets/images/home/icon-512 2.png"
+                      alt=""
+                      width="50"
+                      height="50"
+                    />
+                    <h1>MarocMama</h1>
+                  </div>
+                  <div class="res">
+                    <div class="inp-header">
+                      <img src="../assets/icons/search.svg" alt="" />
+                      <input type="text" placeholder="Find anything here..." />
+                    </div>
+                    <div class="sel-lang">
+                      <img
+                        src="../assets/icons/lang.svg"
+                        alt="select language"
+                      />
+                      <select name="lang" id="lang">
+                        <option value="English">English</option>
+                        <option value="french">french</option>
+                      </select>
+                    </div>
+                    <div class="sel-location">
+                      <div class="location-img">
+                        <img src="../assets/icons/location.svg" alt="" />
+                      </div>
+                      <div class="location">
+                        <p>Location</p>
+                        <select name="loction" id="loction">
+                          <option value="youssoufia">Morocco,youssoufia</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu">
+                   
+                    <select
+                    name="sign"
+                    id="linkselect"
+                    class="select-menu"
+                    onchange="navigatorLink()"
+                  >
+                    <option value="login">LOGIN</option>
+                    <option value="../index.html">Home</option>
+                    <option value="../pages/moroccanFoods.html">Foods</option>
+                    <option value="../pages/traveltips.html">traveltips</option>
+                    <option value="../pages/contact.html">contact</option>
+                    <option value="../pages/login.html">login</option>
+                    <option value="../pages/signup.html">signup</option>
+                  </select>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-buttom">
+                <ul>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="../pages/moroccanFoods.html">Fods</a></li>
+                  <li><a href="../pages/traveltips.html">travelTips</a></li>
+                  <li>
+                    <a href="../pages/about.html" class="active">About</a>
+                  </li>
+                  <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+                <div class="sign-delate">
+                  <div class="delate">
+                    <img src="../assets/icons/sign-in.svg" alt="" />
+                  </div>
+                  <div class="sign-in active">
+                    <img src="../assets/icons/delate.svg" alt="" />
+                    <select
+                    name="sign"
+                    id="select-sign"
+                    class="select-sign"
+                    onchange="selectLinks()"
+                  >
+                    <option value=""></option>
+                    <option value="../pages/signup.html">Sign</option>
+                    <option value="../pages/login.html">Sign up</option>
+                  </select>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- create header -->
+        </header>
+      </div>
+      <div class="auth-header">
+        <img
+          src="../assets/images/auth/header-mobile.png"
+          alt=""
+          width="443.56"
+          height="370.82"
+        />
+      </div>
+      </div>
+      <h1 class="login-title">Log In</h1>
+      <div class="login-image">
+        <img
+          src="../assets/images/auth/login.png"
+          alt="login image"
+          width="305"
+          height="206"
+        />
+      </div>
+      <section id="login-form" class="login-form">
+        <form action="login form" class="login-form">
+          <div class="input-container">
+            <label for="email"> Email </label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Example@gmail.com"
+            />
+            <span class="email-icon"
+              ><img src="../assets/icons/email.svg" alt="email icon"
+            /></span>
+          </div>
+          <div class="input-container">
+            <label for="password"> Password </label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="**********"
+            />
+            <span class="password-icon"
+              ><img src="../assets/icons/password.svg" alt="password icon"
+            /></span>
+            <span class="visibility-icon"
+              ><img src="../assets/icons/visibility.svg" alt="password icon"
+            /></span>
+          </div>
+        </form>
+        <div class="remember-password">
+          <div class="check">
+            <img src="../assets/icons/check.svg" alt="remember password" />
+            <span>Remember Password</span>
+          </div>
+          <div class="forget-pass">Forget Password?</div>
+        </div>
+        <button class="Login-btn">LogIn</button>
+        <br />
+        <div class="login-with">
+          <img src="../assets/icons/Line.svg" alt="line" />
+          <span class="login-with-span">Or Login with</span>
+          <img src="../assets/icons/Line.svg" alt="line" />
+        </div>
+        <div class="login-with-btn">
+          <button><img src="../assets/icons/gmail.svg" alt="gmail"><span class="social-media">Gmail</span> </button>
+          <button><img src="../assets/icons/facebook.svg" alt="facebook"> <span class="social-media">Facebook</span> </button>
+          
+        </div>
+        <div class="auth-footer-mobile">
+          <img src="../assets/images/auth/footer-mobile.png" alt="" width="375" height="70"/>
+        </div>
+
+      </section>
+    </div>
+    <footer>
+      <div class="footer-links">
+          <div class="single-column">
+              <div class="logo-title">
+                <img src="../assets/images/Home/icon-512 2.png" alt="logo"> 
+              <h2>MarocMama</h2>
+              </div>
+              <p>Destination is a website or application service that helps you choose or <br> recommend places dubbed 'hidden gems' to make them better known <br> and more popular. <span style="color:#4475F2;">Read More</span> </p>
+              <p>212 851-5616-2840</p>
+              <p>Contact@destinize.ma</p>
+              <p>bd Mohammed V, espace Idriss 7° Casablanca</p>
+              <p>212 851-5616-2840</p>
+              <p>© 2024-2025, All Rights Reserved</p>
+          </div>
+    
+          <div class="about">
+            <h3>About</h3>
+              <ul>
+                  <!--<li class="about-class">About</li>-->
+                  <li>About Us</li>
+                  <li>Blog</li>
+                  <li>Career</li>
+                  <li>Work</li>
+                  <li>News</li>
+                  <li>Gallery</li>
+                  <li>Affiliation</li>
+              </ul>
+          </div>
+          <div class="support">
+            <h3>Support</h3>
+              <ul>
+                  <li>Contact Us</li>
+                  <li>Online Chat</li>
+                  <li>Whatsapp</li>
+                  <li>Telegram</li>
+                  <li>Tiket</li>
+                  <li>Call Center</li>
+                  <li>Help</li>
+              </ul>
+          </div>
+          <div class="FAQ">
+            <h3>FAQ</h3>
+              <ul>
+                  <li>Account</li>
+                  <li>Organize</li>
+                  <li>Order</li>
+                  <li>Payment</li>
+                  <li>Return</li>
+                  <li>Copyright</li>
+                  <li>Language</li>
+              </ul>
+          </div>
+      </div>
+         <div class="lower">
+            <ul>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>Privacy & policy</li>
+                <li>Sitemap</li>
+                <li>Usage Guide</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

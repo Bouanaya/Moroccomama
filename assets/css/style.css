@@ -1,12 +1,13 @@
- 
-body{
-    font-size: 14px;
-    text-transform: initial;
-    
-    overflow-x:hidden;
-    width: 100vw;
-    height: 100vh;
+body {
+  font-size: 14px;
+  text-transform: initial;
 
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+header{
+  background-color: white;
 }
 .container {
   padding: 0 2rem;
@@ -30,8 +31,8 @@ nav {
 .res {
   display: none;
 }
-.nav-buttom{
-    display: none;
+.nav-buttom {
+  display: none;
 }
 
 /* Desktop header */
@@ -40,11 +41,11 @@ nav {
   .container {
     padding: 0 3rem;
   }
-  nav{
+  nav {
     padding: 0;
   }
 
-  nav .navbar{
+  nav .navbar {
     border-bottom: 1px solid var(--third-font-color);
 
     padding: 1rem 0;
@@ -59,7 +60,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 1rem;
-
   }
   .logo h1 {
     font-size: 2rem;
@@ -111,7 +111,7 @@ nav {
   .location-img {
     width: 3.5rem;
     height: 3.5rem;
-    background-color:#E3EBFD;
+    background-color: #e3ebfd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,61 +119,78 @@ nav {
   }
   .sel-location .location p {
     color: var(--third-font-color);
-
   }
-  .sel-location .location select{
+  .sel-location .location select {
     outline: none;
     border: none;
 
-   color: var( --blue-primary);
+    color: var(--blue-primary);
     background-color: transparent;
   }
 
-  .nav-buttom{
+  .nav-buttom {
     display: flex;
     justify-content: space-between;
     padding: 0.4rem 0;
   }
-  .nav-buttom ul{
+  .nav-buttom ul {
     display: flex;
     justify-content: space-between;
     width: 50%;
     padding: 0.4rem 0;
     margin-left: 9rem;
-
-
   }
-  .nav-buttom ul li a{
+  .nav-buttom ul li a {
     font-size: 1.5rem;
     font-family: PlusJakartaBold;
   }
-  .nav-buttom ul li a.active{
-    color:var(--blue-primary) ;
-
+  .nav-buttom ul li a.active {
+    color: var(--blue-primary);
   }
 
-  .sign-delate{
+  .sign-delate {
     display: flex;
     gap: 1rem;
-    margin-right:2.5rem ;
+    margin-right: 2.5rem;
   }
-  .sign-delate .delate , .sign-in{
+  .sign-delate .delate{
     width: 4rem;
     height: 4rem;
-    background-color:var(--blue-primary);
+    background-color: var(--blue-primary);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
   }
-  .sign-in.active{
-    background-color:#E3EBFD;
+  .sign-in{
+    width: 6rem;
+    height: 4rem;
+    background-color: var(--blue-primary);
+    display: flex;
+    align-items: center;
+    border-radius:1rem;
+    padding: 0 0.3rem;
+    
+    position: relative;
+    
 
   }
+  .sign-in .select-sign{
 
-
-
+    position: absolute;
+    left: 0;
+    bottom:-1.3rem;
+    border: none;
+    width: 100%;
+    color: #9A9EA6;
+    outline: none;
+    cursor: pointer;
+  
+  }
+  .sign-in.active {
+    background-color: #e3ebfd;
+  }
 }
 
 /* <!-- create header --> */
@@ -301,15 +318,24 @@ nav {
     font-size: 3rem;
     margin-top: 2rem;
   }
+ 
 }
 
 .custom-video {
   position: relative;
   width: 100%;
-  height: 500px;
+  height:100vh;
   overflow: hidden;
-  margin-top: 100px;
+   margin-top: 10px;
   margin-bottom: 2rem;
+}
+.select-menu{
+  border: none;
+  background-color: #4373ebd7;
+  padding: 1rem;
+  color: white;
+
+  
 }
 
 .custom-video custom-video-play {
@@ -332,7 +358,7 @@ nav {
 /*Footer section*/
 footer {
   padding: 2rem;
-  background-color: rgb(220, 236, 241);
+  
   display: flex;
   flex-direction: column;
   gap: 2rem;

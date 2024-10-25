@@ -7,76 +7,92 @@
     <link rel="stylesheet" href="../assets/css/global.css" />
     <link rel="stylesheet" href="../assets/css/about.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
-
- 
   </head>
   <body>
     <header>
       <!-- create header -->
       <div class="container">
-          <nav>
-              <div class="navbar">
-                  <div class="first-nav">
-                      <div class="logo">
-                          <img src="../assets/images/home/icon-512 2.png" alt="">
-                          <h1>MarocMama</h1>
-                      </div>
-                      <div class="res">
-                          <div class="inp-header">
-                              <img src="../assets/icons/search.svg" alt="">
-                              <input type="text" placeholder="Find anything here...">
-                          </div>
-                          <div class="sel-lang">
-                              <img src="../assets/icons/lang.svg" alt="select language">
-                              <select name="lang" id="lang" >
-                                  <option value="English">English</option>
-                                  <option value="french">french</option>
-                              </select>
-                          </div>
-                          <div class="sel-location">
-                              <div class="location-img">
-                                  <img src="../assets/icons/location.svg" alt="">
-                              </div>
-                              <div class="location">
-                                  <p>Location</p>
-                                  <select name="loction" id="loction">
-                                      <option value="youssoufia">Morocco,youssoufia</option>
-                                  </select>
-                              </div>
-      
-      
-                          </div>
-      
-                      </div>
-                      <div class="menu">
-                          <img src="../assets/icons/menu.svg" alt="">
-                      </div>
-                  </div>
-      
+        <nav>
+          <div class="navbar">
+            <div class="first-nav">
+              <div class="logo">
+                <img src="../assets/images/home/icon-512 2.png" alt="" />
+                <h1>MarocMama</h1>
               </div>
-              <div class="nav-buttom">
-      
-                  <ul>
-                      <li><a href="../index.html">Home</a></li>
-                      <li><a href="../pages/moroccanFoods.html">Fods</a></li>
-                      <li><a href="../pages/traveltips.html">travelTips</a></li>
-                      <li><a href="../pages/about.html" class="active">About</a></li>
-                      <li><a href="../pages/contact.html">Contact</a></li>
-                  </ul>
-                  <div class="sign-delate">
-                      <div class="delate">
-                          <img src="../assets/icons/sign-in.svg" alt="">
-                      </div>
-                      <div class="sign-in active">
-                          <img src="../assets/icons/delate.svg" alt="">
-      
-                      </div>
+              <div class="res">
+                <div class="inp-header">
+                  <img src="../assets/icons/search.svg" alt="" />
+                  <input type="text" placeholder="Find anything here..." />
+                </div>
+                <div class="sel-lang">
+                  <img src="../assets/icons/lang.svg" alt="select language" />
+                  <select name="lang" id="lang">
+                    <option value="English">English</option>
+                    <option value="french">french</option>
+                  </select>
+                </div>
+                <div class="sel-location">
+                  <div class="location-img">
+                    <img src="../assets/icons/location.svg" alt="" />
                   </div>
+                  <div class="location">
+                    <p>Location</p>
+                    <select name="loction" id="loction">
+                      <option value="youssoufia">Morocco,youssoufia</option>
+                    </select>
+                  </div>
+                </div>
               </div>
-          </nav>
+              <div class="menu">
+              
+                <select
+                name="sign"
+                id="linkselect"
+                class="select-menu"
+                onchange="navigatorLink()"
+              >
+                <option value="about">About</option>
+                <option value="../index.html">Home</option>
+                <option value="../pages/moroccanFoods.html">Foods</option>
+                <option value="../pages/traveltips.html">traveltips</option>
+                <option value="../pages/contact.html">contact</option>
+                <option value="../pages/login.html">login</option>
+                <option value="../pages/signup.html">signup</option>
+              </select>
+              </div>
+            </div>
+          </div>
+          <div class="nav-buttom">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../pages/moroccanFoods.html">Fods</a></li>
+              <li><a href="../pages/traveltips.html">travelTips</a></li>
+              <li><a href="../pages/about.html" class="active">About</a></li>
+              <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+            <div class="sign-delate">
+              <div class="delate">
+                <img src="../assets/icons/sign-in.svg" alt="" />
+              </div>
+              <div class="sign-in active">
+                <img src="../assets/icons/delate.svg" alt="" />
+                <select
+                name="sign"
+                id="select-sign"
+                class="select-sign"
+                onchange="selectLinks()"
+              >
+                <option value=""></option>
+                <option value="../pages/signup.html">Sign</option>
+                <option value="../pages/login.html">Sign up</option>
+              </select>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
       <!-- create header -->
-      </header>
+    </header>
     <main>
       <section class="about-us">
         <article>
@@ -174,10 +190,101 @@
               />
             </div>
           </div>
+          <div class="special-partners">
+            <h2>Special partners</h2>
+            <div class="partners-logo">
+              <img
+                src="../assets/images/About/TravelLeisure-1.svg"
+                alt="partners logo"
+              />
+              <img
+                src="../assets/images/About/BBC-Travel-300x150-2.svg"
+                alt="partners logo"
+              />
+              <img
+                src="../assets/images/About/unilad-n2.svg"
+                alt="partners logo"
+              />
+              <img
+                src="../assets/images/About/Daihatsu-logo-1997.svg"
+                alt="partners logo"
+              />
+              <img
+                src="../assets/images/About/News-com-au_4.svg"
+                alt="partners logo"
+              />
+              <img
+                src="../assets/images/About/sfgate (1).svg"
+                alt="partners logo"
+              />
+            </div>
+          </div>
         </article>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-links">
+          <div class="single-column">
+              <div class="logo-title">
+                <img src="assets/images/Home/icon-512 2.png" alt="logo"> 
+              <h2>MarocMama</h2>
+              </div>
+              <p>Destination is a website or application service that helps you choose or <br> recommend places dubbed 'hidden gems' to make them better known <br> and more popular. <span style="color:#4475F2;">Read More</span> </p>
+              <p>212 851-5616-2840</p>
+              <p>Contact@destinize.ma</p>
+              <p>bd Mohammed V, espace Idriss 7° Casablanca</p>
+              <p>212 851-5616-2840</p>
+              <p>© 2024-2025, All Rights Reserved</p>
+          </div>
+    
+          <div class="about">
+            <h3>About</h3>
+              <ul>
+                  <!--<li class="about-class">About</li>-->
+                  <li>About Us</li>
+                  <li>Blog</li>
+                  <li>Career</li>
+                  <li>Work</li>
+                  <li>News</li>
+                  <li>Gallery</li>
+                  <li>Affiliation</li>
+              </ul>
+          </div>
+          <div class="support">
+            <h3>Support</h3>
+              <ul>
+                  <li>Contact Us</li>
+                  <li>Online Chat</li>
+                  <li>Whatsapp</li>
+                  <li>Telegram</li>
+                  <li>Tiket</li>
+                  <li>Call Center</li>
+                  <li>Help</li>
+              </ul>
+          </div>
+          <div class="FAQ">
+            <h3>FAQ</h3>
+              <ul>
+                  <li>Account</li>
+                  <li>Organize</li>
+                  <li>Order</li>
+                  <li>Payment</li>
+                  <li>Return</li>
+                  <li>Copyright</li>
+                  <li>Language</li>
+              </ul>
+          </div>
+      </div>
+         <div class="lower">
+            <ul>
+                <li>About Us</li>
+                <li>Contact</li>
+                <li>Privacy & policy</li>
+                <li>Sitemap</li>
+                <li>Usage Guide</li>
+            </ul>
+        </div>
+    </footer>
     <script src="../js/app.js"></script>
   </body>
 </html>
