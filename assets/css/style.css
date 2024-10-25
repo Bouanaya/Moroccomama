@@ -331,6 +331,10 @@ nav {
 }
 .select-menu{
   border: none;
+  background-color: #4373ebd7;
+  padding: 1rem;
+  color: white;
+
   
 }
 

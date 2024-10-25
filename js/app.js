@@ -7,3 +7,12 @@ function navigatorLink() {
     }
     
 }
+function selectLinks() {
+    const elementSelect =document.getElementById("select-sign");
+    const select = elementSelect.value ; 
+    if (select) {
+        window.location.href = select;
+        
+    }
+    
+}
