@@ -13,6 +13,7 @@ function selectLinks() {
     if (select) {
         window.location.href = select;
         
+        
     }
     
 }
